@@ -183,17 +183,17 @@ Tar arşivi açıldığında, arşiv içinde bulunan tüm klasör ve alt klasör
 > Arşiv dosyasını açarken doğru klasörde olduğunuzdan emin olunuz. Eğer **`tar`** komutunu `Masaüstü` klasöründeyken çalıştırırsanız arşiv içerikleri `Masaüstü` klasörünün içine açılır.
 
 Örnek kullanımı:
-![Resim 1 ] (images/dataanalyze1.jpg)
+![Resim 1] (images/nurdan1.jpeg)
 Öncelikle ls komutu ile şuan bulunduğumuz dizideki tüm dosya ve klasörleri görüntüleyelim.
-![Resim 2] (images/dataanalyze2.jpg)
+![Resim 2] (images/nurdan2.jpeg)
 tar cvf örnek.tar genomes real.doc veri-analizi-kitap.pdf komutu ile  real.doc veri-analizi-kitap.pdf dosyaları ve genomes klasörü örnek.tar dosyasında arşivlenir. Elbette ki dolaylı olarak genomes klasöründeki dosya ve klasörler de bu arşive girmiştir. 
-![Resim3] (images/dataanalyze3.jpg)
+![Resim3] (images/nurdan3.jpeg)
 Artık dizimizde tar cvf örnek.tar arşiv dosyası da görürmektedir.
-![Resim4] (images/dataanalyze4.jpg)
+![Resim4] (images/nurdan4.jpeg)
 tar xvf örnek.tar komutu vererek arşivdeki dosya ve klasörleri dışarı çıkaralım.
-![Resim5] (images/dataanalyze5.jpg)
+![Resim5] (images/nurdan5.jpeg)
 tar dosyalarını sıkıştırmaya yarar.Bu komutla örnek.tar dosyanızın adı artık örnek.tar.gz olur
-![Resim6] (images/dataanalyze6.jpg)
+![Resim6] (images/nurdan6.jpeg)
 Bu komutla sıkıştırılan arşiv eski haline gelir.
 
 
