@@ -182,8 +182,23 @@ Tar arşivi açıldığında, arşiv içinde bulunan tüm klasör ve alt klasör
 
 > Arşiv dosyasını açarken doğru klasörde olduğunuzdan emin olunuz. Eğer **`tar`** komutunu `Masaüstü` klasöründeyken çalıştırırsanız arşiv içerikleri `Masaüstü` klasörünün içine açılır.
 
-### Dosya ve Klasör İzinleri {#dosya-klasor-izin}
+Örnek kullanımı:
+![Resim 1 ] (images/dataanalyze1.jpg)
+Öncelikle ls komutu ile şuan bulunduğumuz dizideki tüm dosya ve klasörleri görüntüleyelim.
+![Resim 2] (images/dataanalyze2.jpg)
+tar cvf örnek.tar genomes real.doc veri-analizi-kitap.pdf komutu ile  real.doc veri-analizi-kitap.pdf dosyaları ve genomes klasörü örnek.tar dosyasında arşivlenir. Elbette ki dolaylı olarak genomes klasöründeki dosya ve klasörler de bu arşive girmiştir. 
+![Resim3] (images/dataanalyze3.jpg)
+Artık dizimizde tar cvf örnek.tar arşiv dosyası da görürmektedir.
+![Resim4] (images/dataanalyze4.jpg)
+tar xvf örnek.tar komutu vererek arşivdeki dosya ve klasörleri dışarı çıkaralım.
+![Resim5] (images/dataanalyze5.jpg)
+tar dosyalarını sıkıştırmaya yarar.Bu komutla örnek.tar dosyanızın adı artık örnek.tar.gz olur
+![Resim6] (images/dataanalyze6.jpg)
+Bu komutla sıkıştırılan arşiv eski haline gelir.
 
+
+### Dosya ve Klasör İzinleri {#dosya-klasor-izin}
+ 
 Terminalde dosya ve klasörleri detaylı şekilde listelediğimiz zaman aşağıdaki şekilde bilgiler sunulmaktadır:
 
 >`-rwxr-xr-x 1 ogrenci users 20974 Mar 8 2014 ascii.pdf`
