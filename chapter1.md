@@ -205,7 +205,7 @@ tar xvf örnek.tar komutu vererek arşivdeki dosya ve klasörleri dışarı çı
 
 ![Resim5] (images/nurdan5.jpeg)
 
-tar dosyalarını sıkıştırmaya yarar.Bu komutla örnek.tar dosyanızın adı artık örnek.tar.gz olur
+gzip örnek.tar komutu tar dosyalarını sıkıştırmaya yarar.Bu komutla örnek.tar dosyanızın adı artık örnek.tar.gz olur
 
 
 ![Resim6] (images/nurdan6.jpeg)
