@@ -186,8 +186,9 @@ Tar arşivi açıldığında, arşiv içinde bulunan tüm klasör ve alt klasör
 
 Öncelikle ls komutu ile şuan bulunduğumuz diziyi görüntüleyelim.
 
-`1205A031@ders:~/yenidizin$ ls`
-`mavi turuncu yeşil pembe mor siyah`
+>`1205A031@ders:~/yenidizin$ ls`
+
+>`mavi turuncu yeşil pembe mor siyah`
 
 tar cvf örnek.tar genomes real.doc veri-analizi-kitap.pdf komutu ile  real.doc veri-analizi-kitap.pdf dosyaları ve genomes klasörü örnek.tar dosyasında arşivlenir. Elbette ki dolaylı olarak genomes klasöründeki dosya ve klasörler de bu arşive girmiştir. 
 
