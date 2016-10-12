@@ -182,29 +182,33 @@ Tar arşivi açıldığında, arşiv içinde bulunan tüm klasör ve alt klasör
 
 > Arşiv dosyasını açarken doğru klasörde olduğunuzdan emin olunuz. Eğer **`tar`** komutunu `Masaüstü` klasöründeyken çalıştırırsanız arşiv içerikleri `Masaüstü` klasörünün içine açılır.
 
-Örnek kullanımı:
+### Örnek kullanımı:
 
 >`kullanıcı@makine:~/yenidizin$ ls`
 >`mavi turuncu yeşil pembe mor siyah`
+
 Öncelikle ls komutu ile şuan bulunduğumuz diziyi görüntüleyelim.
 
 >`kullanıcı@makine:~/yenidizin$ tar -cvf etekler.tar mavi turuncu yeşil pembe mor siyah`
+
 Yukarıdaki komut ile mavi turuncu yeşil pembe mor siyah dosyaları etekler.tar dosyasında arşivlenir.
 
 >`kullanıcı@makine:~/yenidizin$ ls`
 >`mavi turuncu yeşil pembe mor siyah etekler.tar`
+
 Artık yenidizin, etekler.tar arşiv dosyasına da sahiptir.
 
 >`kullanıcı@makine:~/yenidizin$ tar xvf etekler.tar`
+
 tar xvf etekler.tar komutu vererek arşivdeki dosyaları tekrar dışarı çıkarabiliriz.
 
 >`kullanıcı@makine:~/yenidizin$ gzip etekler.tar`
+
 gzip etekler.tar komutu tar dosyalarını sıkıştırmaya yarar.Bu komutla etekler.tar dosyanızın adı artık örnek.tar.gz olur
 
 >`kullanıcı@makine:~/yenidizin$ gzip -d etekler.tar`
+
 Bu komutla sıkıştırılan arşiv geri eski haline gelir.
-
-
 
 
 ### Dosya ve Klasör İzinleri {#dosya-klasor-izin}
