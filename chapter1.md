@@ -183,6 +183,7 @@ Tar arşivi açıldığında, arşiv içinde bulunan tüm klasör ve alt klasör
 > Arşiv dosyasını açarken doğru klasörde olduğunuzdan emin olunuz. Eğer **`tar`** komutunu `Masaüstü` klasöründeyken çalıştırırsanız arşiv içerikleri `Masaüstü` klasörünün içine açılır.
 
 Örnek kullanımı:
+
 Öncelikle ls komutu ile şuan bulunduğumuz diziyi görüntüleyelim.
 
 >`kullanıcı@makine:~/yenidizin$ ls`
@@ -199,7 +200,7 @@ Artık yenidizin, etekler.tar arşiv dosyasına da sahiptir.
 
 >`kullanıcı@makine:~/yenidizin$ tar xvf etekler.tar`
 
-tar xvf etekler.tar komutu vererek arşivdeki dosya ve klasörleri tekrar dışarı çıkarabiliriz.
+tar xvf etekler.tar komutu vererek arşivdeki dosyaları tekrar dışarı çıkarabiliriz.
 
 >`kullanıcı@makine:~/yenidizin$ gzip etekler.tar`
 
