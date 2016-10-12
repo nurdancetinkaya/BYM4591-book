@@ -182,7 +182,7 @@ Tar arşivi açıldığında, arşiv içinde bulunan tüm klasör ve alt klasör
 
 > Arşiv dosyasını açarken doğru klasörde olduğunuzdan emin olunuz. Eğer **`tar`** komutunu `Masaüstü` klasöründeyken çalıştırırsanız arşiv içerikleri `Masaüstü` klasörünün içine açılır.
 
-### Örnek kullanımı:
+Örnek kullanımı:
 
 >`kullanıcı@makine:~/örnek$ ls`
 >`mavi turuncu yeşil pembe mor siyah renkler.doc `
