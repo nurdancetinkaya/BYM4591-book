@@ -185,7 +185,7 @@ Tar arşivi açıldığında, arşiv içinde bulunan tüm klasör ve alt klasör
 ### Örnek kullanımı:
 
 >`kullanıcı@makine:~/yenidizin$ ls`
->`mavi turuncu yeşil pembe mor siyah`
+>`mavi turuncu yeşil pembe mor siyah renkler.doc `
 
 Öncelikle ls komutu ile şuan bulunduğumuz diziyi görüntüleyelim.
 
