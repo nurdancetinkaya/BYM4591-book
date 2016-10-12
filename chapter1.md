@@ -181,8 +181,8 @@ f - arşiv dosyası ismi kullanılacağını gösteren opsiyon
 Tar arşivi açıldığında, arşiv içinde bulunan tüm klasör ve alt klasörleri komutun çalıştırıldığı klasörde otomatik olarak açılır.
 
 > Arşiv dosyasını açarken doğru klasörde olduğunuzdan emin olunuz. Eğer **`tar`** komutunu `Masaüstü` klasöründeyken çalıştırırsanız arşiv içerikleri `Masaüstü` klasörünün içine açılır.
-
 Örnek kullanımı:
+
 ![Resim 1] (images/nurdan1.jpeg)
 
 Öncelikle ls komutu ile şuan bulunduğumuz dizideki tüm dosya ve klasörleri görüntüleyelim.
@@ -210,7 +210,7 @@ gzip örnek.tar komutu tar dosyalarını sıkıştırmaya yarar.Bu komutla örne
 
 ![Resim6] (images/nurdan6.jpeg)
 
-Bu komutla sıkıştırılan arşiv eski haline gelir.
+Bu komutla sıkıştırılan arşiv eski haline geliir.
 
 
 ### Dosya ve Klasör İzinleri {#dosya-klasor-izin}
