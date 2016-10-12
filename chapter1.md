@@ -181,36 +181,33 @@ f - arşiv dosyası ismi kullanılacağını gösteren opsiyon
 Tar arşivi açıldığında, arşiv içinde bulunan tüm klasör ve alt klasörleri komutun çalıştırıldığı klasörde otomatik olarak açılır.
 
 > Arşiv dosyasını açarken doğru klasörde olduğunuzdan emin olunuz. Eğer **`tar`** komutunu `Masaüstü` klasöründeyken çalıştırırsanız arşiv içerikleri `Masaüstü` klasörünün içine açılır.
+
 Örnek kullanımı:
-
-
 Öncelikle ls komutu ile şuan bulunduğumuz diziyi görüntüleyelim.
 
->`1205A031@ders:~/yenidizin$ ls`
-
+>`kullanıcı@makine:~/yenidizin$ ls`
 >`mavi turuncu yeşil pembe mor siyah`
 
-tar cvf örnek.tar genomes real.doc veri-analizi-kitap.pdf komutu ile  real.doc veri-analizi-kitap.pdf dosyaları ve genomes klasörü örnek.tar dosyasında arşivlenir. Elbette ki dolaylı olarak genomes klasöründeki dosya ve klasörler de bu arşive girmiştir. 
+tar -cvf etekler.tar mavi turuncu yeşil pembe mor siyah komutu ile mavi turuncu yeşil pembe dosyaları etekler.tar dosyasında arşivlenir.
 
+>`kullanıcı@makine:~/yenidizin$ tar -cvf etekler.tar mavi turuncu yeşil pembe mor siyah`
 
-![Resim3] (images/nurdan3.jpeg)
+>`kullanıcı@makine:~/yenidizin$ ls`
+>`mavi turuncu yeşil pembe mor siyah etekler.tar`
 
-Artık dizimizde örnek.tar arşiv dosyası da görürmektedir.
+Artık yenidizin, etekler.tar arşiv dosyasına da sahiptir.
 
+>`kullanıcı@makine:~/yenidizin$ tar xvf etekler.tar`
 
-![Resim4] (images/nurdan4.jpeg)
+tar xvf etekler.tar komutu vererek arşivdeki dosya ve klasörleri tekrar dışarı çıkarabiliriz.
 
-tar xvf örnek.tar komutu vererek arşivdeki dosya ve klasörleri dışarı çıkaralım.
+>`kullanıcı@makine:~/yenidizin$ gzip etekler.tar`
 
+gzip etekler.tar komutu tar dosyalarını sıkıştırmaya yarar.Bu komutla etekler.tar dosyanızın adı artık örnek.tar.gz olur
 
-![Resim5] (images/nurdan5.jpeg)
+>`kullanıcı@makine:~/yenidizin$ gzip -d etekler.tar`
 
-gzip örnek.tar komutu tar dosyalarını sıkıştırmaya yarar.Bu komutla örnek.tar dosyanızın adı artık örnek.tar.gz olur
-
-
-![Resim6] (images/nurdan6.jpeg)
-
-Bu komutla sıkıştırılan arşiv eski haline geliir.
+Bu komutla sıkıştırılan arşiv geri eski haline gelir.
 
 
 ### Dosya ve Klasör İzinleri {#dosya-klasor-izin}
