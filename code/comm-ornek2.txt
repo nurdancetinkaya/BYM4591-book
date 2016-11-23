@@ -1,5 +1,5 @@
-1205A031@ders:~$ nano
-1205A031@ders:~$ cat Strong\\and\\weak
+kullanıcı@makine:~$ nano
+kullanıcı@makine:~$ cat Strong\\and\\weak
 There was a proud teak tree in the forest. He was tall and strong. There
 was a small herb next to the tree. The teak tree said, “I am very
 handsome and strong. No one can defeat me.” Hearing this, the herb
@@ -13,8 +13,8 @@ to bow. The storm kept growing stronger. The teak could no longer bear
 it. He felt his strength giving way. He tried his best to stand upright,
 but in the end, he fell down. That was the end of the proud tree.When everything was calm again,
 the herb stood straight.He looked around. He saw that the proud teak had fallen.
-1205A031@ders:~$ nano
-1205A031@ders:~$ cat Sand\\and\\stone
+kullanıcı@makine:~$ nano
+kullanıcı@makine:~$ cat Sand\\and\\stone
 John and James were best friends. They fought for many reasons, but never gave up their friendship. They went in search of a job and visited many places to earn
 some money. They passed through various places, villages, towns, forests, and beaches. They supported each other throughout their journey. One day, they reached
 a desert. They had a very little food and water. John said that they should save the food and water for later use. However, James disagreed. He wanted to drink
@@ -24,7 +24,7 @@ careless and began to drown. John rushed to him and saved him. James hugged his 
 When they were about to leave, James carved something on the rock. It was “My best friend saved my life!” He said to John, “When you slapped me, I recorded it
 on sand. The wind would have blown it away by now. However, when you saved my life, I recorded it on rock. It will remain there forever.”
 We have to forget the bad things and cherish the good things done to us.
-1205A031@ders:~$ cat Strong\and\weak | tr A-Z a-z|tr -sc [a-z0-9] "\n"|sort|uniq |head
+kullanıcı@makine:~$ cat Strong\and\weak | tr A-Z a-z|tr -sc [a-z0-9] "\n"|sort|uniq |head
 a
 again
 am
@@ -35,7 +35,7 @@ bear
 best
 blew
 bow
-1205A031@ders:~$ cat Sand\\and\\stone | tr A-Z a-z|tr -sc [a-z0-9] "\n"|sort|uniq|head
+kullanıcı@makine:~$ cat Sand\\and\\stone | tr A-Z a-z|tr -sc [a-z0-9] "\n"|sort|uniq|head
 a
 about
 an
@@ -46,9 +46,9 @@ bad
 bathing
 beaches
 began
-1205A031@ders:~$ cat Sand\\and\\stone | tr A-Z a-z|tr -sc [a-z0-9] "\n"|sort|uniq > Sand\\and\\stone.words
-1205A031@ders:~$ cat Strong\\and\\weak | tr A-Z a-z|tr -sc [a-z0-9] "\n"|sort|uniq > Strong\\and\\weak.words
-1205A031@ders:~$  comm -1 -2 Sand\\and\\stone.words Strong\\and\\weak.words
+kullanıcı@makine:~$ cat Sand\\and\\stone | tr A-Z a-z|tr -sc [a-z0-9] "\n"|sort|uniq > Sand\\and\\stone.words
+kullanıcı@makine:~$ cat Strong\\and\\weak | tr A-Z a-z|tr -sc [a-z0-9] "\n"|sort|uniq > Strong\\and\\weak.words
+kullanıcı@makine:~$  comm -1 -2 Sand\\and\\stone.words Strong\\and\\weak.words
 a
 and
 as
